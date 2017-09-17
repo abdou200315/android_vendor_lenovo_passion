@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.goldfish.so:system/lib64/hw/fingerprint.goldfish.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.ranchu.so:system/lib64/hw/fingerprint.ranchu.so \
     vendor/lenovo/passion/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/lenovo/passion/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/lenovo/passion/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/lenovo/passion/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
