@@ -92,9 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/lenovo/passion/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/lenovo/passion/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
-    vendor/lenovo/passion/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/lenovo/passion/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/P1_SPK_0801.speaker:system/etc/tfa98xx/P1_SPK_0801.speaker \
@@ -417,11 +415,9 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     colorservice \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     com.google.android.media.effects \
     com.google.widevine.software.drm \
-    com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     qcnvitems \
     qcrilhook
