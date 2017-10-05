@@ -19,12 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/passion/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/passion/proprietary/bin/fast_charger_sw:system/bin/fast_charger_sw \
-    vendor/lenovo/passion/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/lenovo/passion/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/lenovo/passion/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/passion/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lenovo/passion/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lenovo/passion/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lenovo/passion/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lenovo/passion/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/passion/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
@@ -40,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/bin/vfmAPITest:system/bin/vfmAPITest \
     vendor/lenovo/passion/proprietary/bin/vfmExTest:system/bin/vfmExTest \
     vendor/lenovo/passion/proprietary/bin/vfmService:system/bin/vfmService \
-    vendor/lenovo/passion/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/lenovo/passion/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/lenovo/passion/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/lenovo/passion/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -90,15 +85,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/passion/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lenovo/passion/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/lenovo/passion/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/lenovo/passion/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lenovo/passion/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/passion/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/lenovo/passion/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    vendor/lenovo/passion/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/passion/proprietary/etc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf \
     vendor/lenovo/passion/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/lenovo/passion/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/lenovo/passion/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/lenovo/passion/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -106,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lenovo/passion/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/P1_SPK_0801.speaker:system/etc/tfa98xx/P1_SPK_0801.speaker \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v3.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v3.config \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \
@@ -117,16 +107,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/speech.preset:system/etc/tfa98xx/speech.preset \
     vendor/lenovo/passion/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/lenovo/passion/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/lenovo/passion/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lenovo/passion/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/lenovo/passion/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/lenovo/passion/proprietary/lib/hw/fingerprint.goldfish.so:system/lib/hw/fingerprint.goldfish.so \
     vendor/lenovo/passion/proprietary/lib/hw/fingerprint.ranchu.so:system/lib/hw/fingerprint.ranchu.so \
-    vendor/lenovo/passion/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/lenovo/passion/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lenovo/passion/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lenovo/passion/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lenovo/passion/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lenovo/passion/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/passion/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/passion/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -134,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/passion/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/passion/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-    vendor/lenovo/passion/proprietary/lib/libunwind.so:system/lib/libunwind.so \
     vendor/lenovo/passion/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
     vendor/lenovo/passion/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/lenovo/passion/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
@@ -143,17 +126,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.goldfish.so:system/lib64/hw/fingerprint.goldfish.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.ranchu.so:system/lib64/hw/fingerprint.ranchu.so \
-    vendor/lenovo/passion/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
-    vendor/lenovo/passion/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/lenovo/passion/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/lenovo/passion/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/lenovo/passion/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lenovo/passion/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
     vendor/lenovo/passion/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/passion/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
-    vendor/lenovo/passion/proprietary/lib64/libunwind.so:system/lib64/libunwind.so \
     vendor/lenovo/passion/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
     vendor/lenovo/passion/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
     vendor/lenovo/passion/proprietary/lib64/libvfmClient.so:system/lib64/libvfmClient.so \
@@ -248,11 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/lenovo/passion/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -323,11 +295,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/lenovo/passion/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lenovo/passion/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/passion/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/passion/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -396,11 +366,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
@@ -442,14 +407,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/lenovo/passion/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/passion/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
     libtime_genoff \
     TimeService \
     colorservice \
