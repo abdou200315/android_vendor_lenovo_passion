@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/lenovo/passion/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/passion/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/lenovo/passion/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/lenovo/passion/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
     vendor/lenovo/passion/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/lenovo/passion/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
@@ -119,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/lenovo/passion/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
     vendor/lenovo/passion/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
+    vendor/lenovo/passion/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/lenovo/passion/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
     vendor/lenovo/passion/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
     vendor/lenovo/passion/proprietary/lib64/libvfmClient.so:system/lib64/libvfmClient.so \
