@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/passion/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/passion/proprietary/bin/radish:system/bin/radish \
-    vendor/lenovo/passion/proprietary/bin/rild:system/bin/rild \
     vendor/lenovo/passion/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/passion/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lenovo/passion/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -85,13 +84,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/passion/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lenovo/passion/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/lenovo/passion/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
-    vendor/lenovo/passion/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
-    vendor/lenovo/passion/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     vendor/lenovo/passion/proprietary/etc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf \
     vendor/lenovo/passion/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/lenovo/passion/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
-    vendor/lenovo/passion/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/passion/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -103,8 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/music.preset:system/etc/tfa98xx/music.preset \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/speech.eq:system/etc/tfa98xx/speech.eq \
     vendor/lenovo/passion/proprietary/etc/tfa98xx/speech.preset:system/etc/tfa98xx/speech.preset \
-    vendor/lenovo/passion/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/lenovo/passion/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/lenovo/passion/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/lenovo/passion/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/lenovo/passion/proprietary/lib/hw/fingerprint.goldfish.so:system/lib/hw/fingerprint.goldfish.so \
@@ -114,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/passion/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/lenovo/passion/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lenovo/passion/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/passion/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/lenovo/passion/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
     vendor/lenovo/passion/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
@@ -124,10 +116,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.goldfish.so:system/lib64/hw/fingerprint.goldfish.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.ranchu.so:system/lib64/hw/fingerprint.ranchu.so \
-    vendor/lenovo/passion/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/lenovo/passion/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
-    vendor/lenovo/passion/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/passion/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/lenovo/passion/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
     vendor/lenovo/passion/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
@@ -135,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib64/libvfmtztransport.so:system/lib64/libvfmtztransport.so \
     vendor/lenovo/passion/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/passion/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lenovo/passion/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/lenovo/passion/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/passion/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/passion/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Customers_China_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Customers_China_NCD_Unsigned_configdata.ncd \
