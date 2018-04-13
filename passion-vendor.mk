@@ -119,6 +119,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/lenovo/passion/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
     vendor/lenovo/passion/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
+    vendor/lenovo/passion/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/lenovo/passion/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/lenovo/passion/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+    vendor/lenovo/passion/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/lenovo/passion/proprietary/vendor/lib64/hw/audio.primary.msm8916.so:system/vendor/lib64/hw/audio.primary.msm8916.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/passion/proprietary/lib64/hw/fingerprint.goldfish.so:system/lib64/hw/fingerprint.goldfish.so \
@@ -136,6 +140,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
     vendor/lenovo/passion/proprietary/lib64/libvfmClient.so:system/lib64/libvfmClient.so \
     vendor/lenovo/passion/proprietary/lib64/libvfmtztransport.so:system/lib64/libvfmtztransport.so \
+    vendor/lenovo/passion/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
+    vendor/lenovo/passion/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+    vendor/lenovo/passion/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
+    vendor/lenovo/passion/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/lenovo/passion/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/passion/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/passion/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
